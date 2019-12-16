@@ -4,6 +4,8 @@
 
 Chat simples utilizando Node.Js + Socket.IO
 
+![Chat-_-Socket io-Node Js-Firefox-Developer-Edition-09_11_2019-17_29_40](https://user-images.githubusercontent.com/38895689/70942423-68ace580-202d-11ea-91a6-3b23d5a3736f.gif)
+
 ## :computer: Tecnologias Utilizadas  
 
 * HTML;
