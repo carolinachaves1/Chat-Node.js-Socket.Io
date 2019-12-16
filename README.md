@@ -14,13 +14,13 @@ Chat simples utilizando Node.Js + Socket.IO
 
 ## :page_facing_up: Estrutura do Projeto 
 
---node_modules/  
---style.css  
---app.js
---index.ejs
---js.js
---package-lock
---package.json  
+--node_modules/    
+--style.css    
+--app.js  
+--index.ejs  
+--js.js  
+--package-lock  
+--package.json    
 
 ## :lock: Licença
 
