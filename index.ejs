@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" href="style.css">
+ <script src="node_modules/jquery/dist/jquery.min.js"></script>
+ <script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+ <script src="js.js"></script>
+ <title>Chat | Socket.io + Node.Js</title>
+</head>
+<body>
+<div class="container">
+
+    <div class="login_area">
+        <hr>
+        <p id="login_text">L O G I N</p>
+        <div id="login_form">
+            <form id="submit">
+                <label for="nickname">Nome/Username</label><br>
+                <input type="text" name="nickname" id="nickname"><br>
+            </form>
+            <button id="button" type="submit" form="submit" style="margin-top: 40px">Entrar</button>
+        </div>
+    </div>     <!-- FIM DIV LOGIN_AREA -->
+
+    <div id="chat" hidden>
+        <div class="top">
+           
+        </div>
+
+        <ol class="chat"></ol>
+        <input class="textarea" type="text" placeholder="Escreva sua mensagem aqui" id="textarea"/>
+
+    </div>
+
+</div> <!-- FIM DIV CONTAINER -->
+<div class="footer">
+    Desenvolvido por <a href="https://www.linkedin.com/in/carolinachaves1/" target=_blank>Carolina Chaves</a> |
+    Repositório no GitHub
+</div>
+
+</body>
+</html>
